@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+/* Color Variables */
+:root {
+  --orange: #d65d0e;
+  --extra-light-tan: #ebdbb2;
+  --grey: #665c54;
+}
+
+/* Body Colors */
+body {
+  background-color: #3c3836;
+}
+body {
+  color: var(--extra-light-tan);
+}
+body a {
+  color: var(--orange);
+}
+body a:hover {
+  color: var(--extra-light-tan);
+}
+body a:visited {
+  color: var(--gray) !important;
+}
+
+/* Navbar Colors */
+.custom-navbar .nav-link {
+  color: var(--orange) !important;
+}
+.custom-navbar .nav-link:hover {
+  color: var(--extra-light-tan) !important;
+}
+.custom-navbar .navbar-brand {
+  color: var(--orange) !important;
+}
+
+
+
